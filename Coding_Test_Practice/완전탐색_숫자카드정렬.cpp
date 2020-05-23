@@ -26,15 +26,10 @@ int num;
 
 void search(int n, int toPick){
     
-    
     if(toPick == 0){
-        
         num = 100*vec[0] + 10*vec[1] + vec[2];
         answer.push_back(num);
-        
-        
     }
-    
     else{
         
         for(int i = 0; i<n; i++){
@@ -47,36 +42,18 @@ void search(int n, int toPick){
                 
                 vec.pop_back();
                 checkArr[i] = true;
-                
-                
+
             }
             else{
                 continue;
             }
-            
-            
         }
-        
-        
-        
-        
     }
-    
-    
-    
-    
-    
-    
 }
 
 
-
-
-
 int main(){
-    
-    
-    
+
     search(size, toPick); //3
     
     for(int i=0; i<answer.size(); i++){
