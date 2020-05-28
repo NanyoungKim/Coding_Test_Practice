@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B452E1B2476801500CBB5ED /* 완전탐색_수영장(모의 sw 역량테스트).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B452E1A2476801500CBB5ED /* 완전탐색_수영장(모의 sw 역량테스트).cpp */; };
 		1B452E1D247944FE00CBB5ED /* 왕전탐색_사다리조작.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B452E1C247944FD00CBB5ED /* 왕전탐색_사다리조작.cpp */; };
 /* End PBXBuildFile section */
 
@@ -125,7 +124,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B452E1D247944FE00CBB5ED /* 왕전탐색_사다리조작.cpp in Sources */,
-				1B452E1B2476801500CBB5ED /* 완전탐색_수영장(모의 sw 역량테스트).cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
