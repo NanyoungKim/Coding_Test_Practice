@@ -48,5 +48,85 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFB74C2B-C1C4-404E-9B3F-D242394289E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/&#x110b;&#x116a;&#x11bc;&#x110c;&#x1165;&#x11ab;&#x1110;&#x1161;&#x11b7;&#x1109;&#x1162;&#x11a8;_&#x1109;&#x1161;&#x1103;&#x1161;&#x1105;&#x1175;&#x110c;&#x1169;&#x110c;&#x1161;&#x11a8;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92417C58-326C-44F9-BC7E-58E879139932"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/&#x110b;&#x116a;&#x11bc;&#x110c;&#x1165;&#x11ab;&#x1110;&#x1161;&#x11b7;&#x1109;&#x1162;&#x11a8;_&#x1109;&#x1161;&#x1103;&#x1161;&#x1105;&#x1175;&#x110c;&#x1169;&#x110c;&#x1161;&#x11a8;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "Ladder(r, c)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FE0520B-F19D-4C25-8FD7-CE430D961C04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/&#x110b;&#x116a;&#x11bc;&#x110c;&#x1165;&#x11ab;&#x1110;&#x1161;&#x11b7;&#x1109;&#x1162;&#x11a8;_&#x1109;&#x1161;&#x1103;&#x1161;&#x1105;&#x1175;&#x110c;&#x1169;&#x110c;&#x1161;&#x11a8;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "Ladder(r, c)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B0EE41B-E34A-457D-A0F9-EF67D8A74AF3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/&#x110b;&#x116a;&#x11bc;&#x110c;&#x1165;&#x11ab;&#x1110;&#x1161;&#x11b7;&#x1109;&#x1162;&#x11a8;_&#x1109;&#x1161;&#x1103;&#x1161;&#x1105;&#x1175;&#x110c;&#x1169;&#x110c;&#x1161;&#x11a8;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5ED674A0-5F9D-46BA-8C53-148137DD34F6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/&#x110b;&#x116a;&#x11ab;&#x110c;&#x1165;&#x11ab;&#x1110;&#x1161;&#x11b7;&#x1109;&#x1162;&#x11a8;_&#x1109;&#x1161;&#x1103;&#x1161;&#x1105;&#x1175;&#x110c;&#x1169;&#x110c;&#x1161;&#x11a8;(answer).cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "func(cnt, x, y)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
