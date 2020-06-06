@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B6284582487C04B00E5D248 /* 다차원배열탐색_꿀벌채취.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B6284572487C04B00E5D248 /* 다차원배열탐색_꿀벌채취.cpp */; };
+		1B6284612489653B00E5D248 /* 다차원배열탐색_꿀벌채취.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B6284572487C04B00E5D248 /* 다차원배열탐색_꿀벌채취.cpp */; };
+		1B628463248B9AC300E5D248 /* 다차원배열탐색_꿀벌채취(answer).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B628462248B9AC300E5D248 /* 다차원배열탐색_꿀벌채취(answer).cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,10 @@
 		1B452E1C247944FD00CBB5ED /* 왕전탐색_사다리조작.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "왕전탐색_사다리조작.cpp"; sourceTree = "<group>"; };
 		1B6284552487BB4E00E5D248 /* 완전탐색_테트로미노(answer).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "완전탐색_테트로미노(answer).cpp"; sourceTree = "<group>"; };
 		1B6284572487C04B00E5D248 /* 다차원배열탐색_꿀벌채취.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "다차원배열탐색_꿀벌채취.cpp"; sourceTree = "<group>"; };
+		1B62845B2488D58C00E5D248 /* 완전탐색_숫자카드(test).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "완전탐색_숫자카드(test).cpp"; sourceTree = "<group>"; };
+		1B62845D2488E27C00E5D248 /* 완전탐색_수영장(test).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "완전탐색_수영장(test).cpp"; sourceTree = "<group>"; };
+		1B62845F248916AA00E5D248 /* 완전탐색_사다리조작(test).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "완전탐색_사다리조작(test).cpp"; sourceTree = "<group>"; };
+		1B628462248B9AC300E5D248 /* 다차원배열탐색_꿀벌채취(answer).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "다차원배열탐색_꿀벌채취(answer).cpp"; sourceTree = "<group>"; };
 		1B8F005D24827E4500398665 /* 완전탐색_사다리조작(answer).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "완전탐색_사다리조작(answer).cpp"; sourceTree = "<group>"; };
 		1B8F0060248289C200398665 /* 완전탐색_테트로미노.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "완전탐색_테트로미노.cpp"; sourceTree = "<group>"; };
 		1BA6220D2475983500B899D6 /* Coding_Test_Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Coding_Test_Practice; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,12 +69,16 @@
 			isa = PBXGroup;
 			children = (
 				1BA622172475989200B899D6 /* 완전탐색_숫자카드정렬.cpp */,
+				1B62845B2488D58C00E5D248 /* 완전탐색_숫자카드(test).cpp */,
 				1B452E1A2476801500CBB5ED /* 완전탐색_수영장(모의 sw 역량테스트).cpp */,
+				1B62845D2488E27C00E5D248 /* 완전탐색_수영장(test).cpp */,
 				1B452E1C247944FD00CBB5ED /* 왕전탐색_사다리조작.cpp */,
 				1B8F005D24827E4500398665 /* 완전탐색_사다리조작(answer).cpp */,
+				1B62845F248916AA00E5D248 /* 완전탐색_사다리조작(test).cpp */,
 				1B8F0060248289C200398665 /* 완전탐색_테트로미노.cpp */,
 				1B6284552487BB4E00E5D248 /* 완전탐색_테트로미노(answer).cpp */,
 				1B6284572487C04B00E5D248 /* 다차원배열탐색_꿀벌채취.cpp */,
+				1B628462248B9AC300E5D248 /* 다차원배열탐색_꿀벌채취(answer).cpp */,
 			);
 			path = Coding_Test_Practice;
 			sourceTree = "<group>";
@@ -131,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B6284582487C04B00E5D248 /* 다차원배열탐색_꿀벌채취.cpp in Sources */,
+				1B6284612489653B00E5D248 /* 다차원배열탐색_꿀벌채취.cpp in Sources */,
+				1B628463248B9AC300E5D248 /* 다차원배열탐색_꿀벌채취(answer).cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
