@@ -256,5 +256,21 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "512EB4C6-BBE1-4BD4-8724-D8D141C56190"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/BFS_BOJ1389_&#x110f;&#x1166;&#x1107;&#x1175;&#x11ab;&#x1107;&#x1166;&#x110b;&#x1175;&#x110f;&#x1165;&#x11ab;&#x110b;&#x1174;6&#x1103;&#x1161;&#x11ab;&#x1100;&#x1168;&#x1107;&#x1165;&#x11b8;&#x110e;&#x1175;&#x11a8;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
