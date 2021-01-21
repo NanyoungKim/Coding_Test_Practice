@@ -448,5 +448,69 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8370432-D119-4091-A48B-FB852C14425F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/DFS_BOJ11725_&#x1110;&#x1173;&#x1105;&#x1175;&#x110b;&#x1174;&#x1107;&#x116e;&#x1106;&#x1169;&#x110e;&#x1161;&#x11bd;&#x1100;&#x1175;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AD38AD2-8862-4CDD-8C22-292448AD5768"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/DFS_BOJ11725_&#x1110;&#x1173;&#x1105;&#x1175;&#x110b;&#x1174;&#x1107;&#x116e;&#x1106;&#x1169;&#x110e;&#x1161;&#x11bd;&#x1100;&#x1175;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31B4A899-1672-491F-8DDE-99921C90189B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/BFS_SWEA2819_&#x1100;&#x1167;&#x11a8;&#x110c;&#x1161;&#x1111;&#x1161;&#x11ab;&#x110b;&#x1174;&#x1109;&#x116e;&#x11ba;&#x110c;&#x1161;&#x110b;&#x1175;&#x110b;&#x1165;&#x1107;&#x116e;&#x11c0;&#x110b;&#x1175;&#x1100;&#x1175;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "866FF849-FCF9-40F9-A82A-30EAA34C36DA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/BFS_SWEA2819_&#x1100;&#x1167;&#x11a8;&#x110c;&#x1161;&#x1111;&#x1161;&#x11ab;&#x110b;&#x1174;&#x1109;&#x116e;&#x11ba;&#x110c;&#x1161;&#x110b;&#x1175;&#x110b;&#x1165;&#x1107;&#x116e;&#x11c0;&#x110b;&#x1175;&#x1100;&#x1175;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "DFS(r, c, toPick)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
