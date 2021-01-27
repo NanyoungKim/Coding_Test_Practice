@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BC74FC325BE59690061903B /* 수학_BOJ17425_약수의합.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC74FC225BE59690061903B /* 수학_BOJ17425_약수의합.cpp */; };
+		1B61507725C1636600233D1C /* BF_BOJ1748_수이어쓰기1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B61507625C1636600233D1C /* BF_BOJ1748_수이어쓰기1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B61507425C1275B00233D1C /* BF_BOJ1476_날짜계산.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ1476_날짜계산.cpp"; sourceTree = "<group>"; };
+		1B61507625C1636600233D1C /* BF_BOJ1748_수이어쓰기1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ1748_수이어쓰기1.cpp"; sourceTree = "<group>"; };
 		1BA6220D2475983500B899D6 /* Coding_Test_Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Coding_Test_Practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC74FC025BE4D340061903B /* 수학_BOJ17427_약수의합2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "수학_BOJ17427_약수의합2.cpp"; sourceTree = "<group>"; };
 		1BC74FC225BE59690061903B /* 수학_BOJ17425_약수의합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "수학_BOJ17425_약수의합.cpp"; sourceTree = "<group>"; };
@@ -60,6 +62,8 @@
 			children = (
 				1BC74FC025BE4D340061903B /* 수학_BOJ17427_약수의합2.cpp */,
 				1BC74FC225BE59690061903B /* 수학_BOJ17425_약수의합.cpp */,
+				1B61507425C1275B00233D1C /* BF_BOJ1476_날짜계산.cpp */,
+				1B61507625C1636600233D1C /* BF_BOJ1748_수이어쓰기1.cpp */,
 			);
 			path = Coding_Test_Practice;
 			sourceTree = "<group>";
@@ -121,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC74FC325BE59690061903B /* 수학_BOJ17425_약수의합.cpp in Sources */,
+				1B61507725C1636600233D1C /* BF_BOJ1748_수이어쓰기1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
