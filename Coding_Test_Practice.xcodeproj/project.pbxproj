@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B8046DD25C29F5900487579 /* BF_BOJ3085_사탕게임.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B8046DB25C29F5900487579 /* BF_BOJ3085_사탕게임.cpp */; };
+		1B90189B25C77F4D00148952 /* BF_BOJ15649_N과M_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B90189A25C77F4D00148952 /* BF_BOJ15649_N과M_2.cpp */; };
+		1B90189D25C7838400148952 /* BF_BOJ15649_N과M_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B90189C25C7838400148952 /* BF_BOJ15649_N과M_3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +26,14 @@
 /* Begin PBXFileReference section */
 		1B61507425C1275B00233D1C /* BF_BOJ1476_날짜계산.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ1476_날짜계산.cpp"; sourceTree = "<group>"; };
 		1B61507625C1636600233D1C /* BF_BOJ1748_수이어쓰기1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ1748_수이어쓰기1.cpp"; sourceTree = "<group>"; };
+		1B69CEB625C6C5FF0084F57E /* 수학_BOJ6588_골드바흐의추측.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "수학_BOJ6588_골드바흐의추측.cpp"; sourceTree = "<group>"; };
 		1B8046D925C2847800487579 /* BF_BOj9095_1,2,3 더하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOj9095_1,2,3 더하기.cpp"; sourceTree = "<group>"; };
 		1B8046DB25C29F5900487579 /* BF_BOJ3085_사탕게임.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ3085_사탕게임.cpp"; sourceTree = "<group>"; };
 		1B823D8D25C23AF100E93E04 /* 수학_BOJ1929_소수구하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "수학_BOJ1929_소수구하기.cpp"; sourceTree = "<group>"; };
 		1B823D8F25C257DE00E93E04 /* BF_BOJ2309_일곱난쟁이.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ2309_일곱난쟁이.cpp"; sourceTree = "<group>"; };
+		1B90189825C7760300148952 /* BF_BOJ15649_N과M_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ15649_N과M_1.cpp"; sourceTree = "<group>"; };
+		1B90189A25C77F4D00148952 /* BF_BOJ15649_N과M_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ15649_N과M_2.cpp"; sourceTree = "<group>"; };
+		1B90189C25C7838400148952 /* BF_BOJ15649_N과M_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ15649_N과M_3.cpp"; sourceTree = "<group>"; };
 		1BA6220D2475983500B899D6 /* Coding_Test_Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Coding_Test_Practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC74FC025BE4D340061903B /* 수학_BOJ17427_약수의합2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "수학_BOJ17427_약수의합2.cpp"; sourceTree = "<group>"; };
 		1BC74FC225BE59690061903B /* 수학_BOJ17425_약수의합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "수학_BOJ17425_약수의합.cpp"; sourceTree = "<group>"; };
@@ -72,6 +77,10 @@
 				1B823D8F25C257DE00E93E04 /* BF_BOJ2309_일곱난쟁이.cpp */,
 				1B8046D925C2847800487579 /* BF_BOj9095_1,2,3 더하기.cpp */,
 				1B8046DB25C29F5900487579 /* BF_BOJ3085_사탕게임.cpp */,
+				1B69CEB625C6C5FF0084F57E /* 수학_BOJ6588_골드바흐의추측.cpp */,
+				1B90189825C7760300148952 /* BF_BOJ15649_N과M_1.cpp */,
+				1B90189A25C77F4D00148952 /* BF_BOJ15649_N과M_2.cpp */,
+				1B90189C25C7838400148952 /* BF_BOJ15649_N과M_3.cpp */,
 			);
 			path = Coding_Test_Practice;
 			sourceTree = "<group>";
@@ -133,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B8046DD25C29F5900487579 /* BF_BOJ3085_사탕게임.cpp in Sources */,
+				1B90189D25C7838400148952 /* BF_BOJ15649_N과M_3.cpp in Sources */,
+				1B90189B25C77F4D00148952 /* BF_BOJ15649_N과M_2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
