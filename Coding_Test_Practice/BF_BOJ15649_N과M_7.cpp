@@ -7,8 +7,6 @@ using namespace std;
 vector<int> vec;
 vector<int> ans;
 
-int visited[8]={0};
-
 void dfs(int toPick){
     
     if(toPick==0){
@@ -16,19 +14,14 @@ void dfs(int toPick){
             cout << ans[i] << " ";
         }
         cout <<"\n";
+        return;
     }
     
     for(int i = 0; i<vec.size(); i++){
-        
-        if(visited[i]==0){
-            
-            visited[i]=1;
+                    
             ans.push_back(vec[i]);
             dfs(toPick-1);
             ans.pop_back();
-            visited[i] = 0;
-            
-        }
     }
     
 }

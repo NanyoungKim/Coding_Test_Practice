@@ -9,7 +9,7 @@ vector<int> ans;
 
 int visited[8]={0};
 
-void dfs(int toPick){
+void dfs(int toPick, int num){
     
     if(toPick==0){
         for(int i = 0; i<ans.size(); i++){
@@ -20,11 +20,11 @@ void dfs(int toPick){
     
     for(int i = 0; i<vec.size(); i++){
         
-        if(visited[i]==0){
+        if(visited[i]==0 && num<vec[i]){
             
             visited[i]=1;
             ans.push_back(vec[i]);
-            dfs(toPick-1);
+            dfs(toPick-1, vec[i]);
             ans.pop_back();
             visited[i] = 0;
             
@@ -44,7 +44,7 @@ int main(){
     }
     sort(vec.begin(), vec.end());
     
-    dfs(M);
+    dfs(M, 0);
     
     
     
