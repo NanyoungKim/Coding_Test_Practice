@@ -17,6 +17,9 @@ void dfs(int toPick, int num){
         return;
     }
     
+    
+    
+    
     for(int i = 0; i<vec.size(); i++){
         
         if(num<=vec[i]){
