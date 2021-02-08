@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-
+#include <cstring>
 
 using namespace std;
 
@@ -30,7 +30,15 @@ void choiceNum(int toPick, vector<int> vec){
     
     if(toPick==0){
         
-        if(chk(pickVec)){flag = false; return;}
+        if(chk(pickVec)){
+            for(int i = 0; i<pickVec.size(); i++){
+                cout << pickVec[i];
+            }
+            cout << "\n";
+            flag = false; return;
+            
+            
+        }
         
     }
     
@@ -70,10 +78,10 @@ int main(){
     for(int i = 9; i>=0; i--){ lVec.push_back(i); } //9~0
     
     
-    choiceNum(k+1, gVec);
-    for(int i = 0; i<pickVec.size(); i++){
-        cout << pickVec[i] ;
-    }
+    choiceNum(k+1, lVec);
+//    for(int i = 0; i<pickVec.size(); i++){
+//        cout << pickVec[i] ;
+//    }
     
     
     
@@ -85,10 +93,10 @@ int main(){
     
     
     
-    choiceNum(k+1, lVec);
-    for(int i = 0; i<pickVec.size(); i++){
-        cout << pickVec[i] ;
-    }
+    choiceNum(k+1, gVec);
+//    for(int i = 0; i<pickVec.size(); i++){
+//        cout << pickVec[i] ;
+//    }
     
     return 0;
 }
