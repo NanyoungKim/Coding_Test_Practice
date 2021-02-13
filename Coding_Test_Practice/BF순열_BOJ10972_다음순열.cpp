@@ -7,22 +7,22 @@ using namespace std;
 int N;
 vector<int> vec;
 
-bool testLast(){
-
-    int n = N;
-    bool ret = false;
-    for(int i = 0; i<N; i++){
-        if(vec[i] == n){
-            ret = true;
-            n--;
-        }
-        else {
-            ret = false;
-            break;
-        }
-    }
-    return ret;
-}
+//bool testLast(){
+//
+//    int n = N;
+//    bool ret = false;
+//    for(int i = 0; i<N; i++){
+//        if(vec[i] == n){
+//            ret = true;
+//            n--;
+//        }
+//        else {
+//            ret = false;
+//            break;
+//        }
+//    }
+//    return ret;
+//}
 
 
 
