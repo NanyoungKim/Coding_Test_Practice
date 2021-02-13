@@ -768,5 +768,69 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C420097E-C3BC-46B1-BD47-08A8D00AE102"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/BF&#x1107;&#x1175;&#x1110;&#x1173;&#x1106;&#x1161;&#x1109;&#x1173;&#x110f;&#x1173;_BOJ11723_&#x110c;&#x1175;&#x11b8;&#x1112;&#x1161;&#x11b8;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4F1B97A-3915-4E23-8975-2AE81BE7F9BE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/BF&#x1107;&#x1175;&#x1110;&#x1173;&#x1106;&#x1161;&#x1109;&#x1173;&#x110f;&#x1173;_BOJ11723_&#x110c;&#x1175;&#x11b8;&#x1112;&#x1161;&#x11b8;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A013372F-D35F-4C50-94A7-1F51D50EC568"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/BF&#x1107;&#x1175;&#x1110;&#x1173;&#x1106;&#x1161;&#x1109;&#x1173;&#x110f;&#x1173;_BOJ11723_&#x110c;&#x1175;&#x11b8;&#x1112;&#x1161;&#x11b8;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD10FECD-132C-40D9-9AAD-A21B29C19D61"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/BF&#x1107;&#x1175;&#x1110;&#x1173;&#x1106;&#x1161;&#x1109;&#x1173;&#x110f;&#x1173;_BOJ14391_&#x110c;&#x1169;&#x11bc;&#x110b;&#x1175;&#x110c;&#x1169;&#x1100;&#x1161;&#x11a8;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
