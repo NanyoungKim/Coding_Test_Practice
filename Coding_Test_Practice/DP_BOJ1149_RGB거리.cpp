@@ -48,6 +48,6 @@ int main(){
 //    }
     
     
-    cout << "\n" << ans;
+    cout << ans;
     return 0;
 }

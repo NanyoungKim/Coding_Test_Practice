@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BA1348925E3556F005AB7F5 /* DP_BOJ1149_RGB거리.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1348825E3556F005AB7F5 /* DP_BOJ1149_RGB거리.cpp */; };
+		1BA1348B25E3687D005AB7F5 /* DP_BOJ1932_정수삼각형.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1348A25E3687D005AB7F5 /* DP_BOJ1932_정수삼각형.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +56,7 @@
 		1B9AC9FB25D7DA9D00814C91 /* BF순열_BOJ10971_외판원순회2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF순열_BOJ10971_외판원순회2.cpp"; sourceTree = "<group>"; };
 		1B9AC9FD25D95F6A00814C91 /* DP1_BOJ11727_2xn타일링2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DP1_BOJ11727_2xn타일링2.cpp"; sourceTree = "<group>"; };
 		1BA1348825E3556F005AB7F5 /* DP_BOJ1149_RGB거리.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DP_BOJ1149_RGB거리.cpp"; sourceTree = "<group>"; };
+		1BA1348A25E3687D005AB7F5 /* DP_BOJ1932_정수삼각형.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DP_BOJ1932_정수삼각형.cpp"; sourceTree = "<group>"; };
 		1BA6220D2475983500B899D6 /* Coding_Test_Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Coding_Test_Practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB482ED25C9A2A5001E150C /* BF_BOJ15649_N과M_6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ15649_N과M_6.cpp"; sourceTree = "<group>"; };
 		1BB482EF25C9A5EF001E150C /* BF_BOJ15649_N과M_7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ15649_N과M_7.cpp"; sourceTree = "<group>"; };
@@ -138,6 +139,7 @@
 				1B8E014925DF3A5300A8C1B4 /* DP_BOJ1912_연속합.cpp */,
 				1B8E014B25DF6BCC00A8C1B4 /* DP_BOJ1463_1로만들기.cpp */,
 				1BA1348825E3556F005AB7F5 /* DP_BOJ1149_RGB거리.cpp */,
+				1BA1348A25E3687D005AB7F5 /* DP_BOJ1932_정수삼각형.cpp */,
 			);
 			path = Coding_Test_Practice;
 			sourceTree = "<group>";
@@ -199,7 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BA1348925E3556F005AB7F5 /* DP_BOJ1149_RGB거리.cpp in Sources */,
+				1BA1348B25E3687D005AB7F5 /* DP_BOJ1932_정수삼각형.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
