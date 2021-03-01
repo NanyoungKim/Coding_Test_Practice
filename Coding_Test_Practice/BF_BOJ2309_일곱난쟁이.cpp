@@ -11,7 +11,7 @@ bool chk = false;
 vector<int> ansVec;
 int ans = 0;
 
-void Func(int sum, int toPick){
+void Dfs(int sum, int toPick){
     
     if(toPick==0){
         
@@ -29,7 +29,7 @@ void Func(int sum, int toPick){
             ansVec.push_back(heightVec[i]);
             sum+=heightVec[i];
         
-            Func(sum, toPick-1);
+            Dfs(sum, toPick-1);
             if(chk){ break;}
             
             sum-=heightVec[i];
@@ -53,7 +53,7 @@ int main(){
     
     sort(heightVec.begin(), heightVec.end());
     
-    Func(0, 7);
+    Dfs(0, 7);
     
     for(int i = 0; i<7; i++){
         cout << ansVec[i] << "\n";

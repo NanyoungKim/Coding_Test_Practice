@@ -31,15 +31,10 @@ void sumFunc(int sum){
         
     }
     
-    
-    
-    
 }
 
 
-
 int main(){
-    
     
     
     int T;

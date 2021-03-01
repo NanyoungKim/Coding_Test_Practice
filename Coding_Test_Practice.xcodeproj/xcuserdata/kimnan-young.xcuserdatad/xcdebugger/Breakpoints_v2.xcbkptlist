@@ -602,8 +602,8 @@
             filePath = "Coding_Test_Practice/BF_BOj9095_1,2,3 &#x1103;&#x1165;&#x1112;&#x1161;&#x1100;&#x1175;.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
@@ -876,6 +876,22 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
             endingLineNumber = "18"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94E80AD6-73A3-422D-A487-01A379BB4FAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coding_Test_Practice/BF_BOj9095_1,2,3 &#x1103;&#x1165;&#x1112;&#x1161;&#x1100;&#x1175;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
