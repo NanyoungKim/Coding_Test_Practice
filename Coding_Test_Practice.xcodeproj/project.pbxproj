@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B3A394125EC9E7900EBA276 /* 10845_큐.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B3A394025EC9E7900EBA276 /* 10845_큐.cpp */; };
+		1B3A394725ECADE800EBA276 /* 13023_ABCDE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B3A394625ECADE800EBA276 /* 13023_ABCDE.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,8 @@
 		1B1815F425D6186E005641E3 /* BF비트마스크_BOJ1182_부분수열의합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF비트마스크_BOJ1182_부분수열의합.cpp"; sourceTree = "<group>"; };
 		1B1815F725D62940005641E3 /* BF비트마스크_BOJ11723_집합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF비트마스크_BOJ11723_집합.cpp"; sourceTree = "<group>"; };
 		1B3A394025EC9E7900EBA276 /* 10845_큐.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10845_큐.cpp"; sourceTree = "<group>"; };
+		1B3A394425ECA56100EBA276 /* 10866_덱.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10866_덱.cpp"; sourceTree = "<group>"; };
+		1B3A394625ECADE800EBA276 /* 13023_ABCDE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 13023_ABCDE.cpp; sourceTree = "<group>"; };
 		1B48262E25DD5B0300A111F3 /* DP_BOJ2225_합분해.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DP_BOJ2225_합분해.cpp"; sourceTree = "<group>"; };
 		1B61507425C1275B00233D1C /* BF_BOJ1476_날짜계산.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ1476_날짜계산.cpp"; sourceTree = "<group>"; };
 		1B61507625C1636600233D1C /* BF_BOJ1748_수이어쓰기1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ1748_수이어쓰기1.cpp"; sourceTree = "<group>"; };
@@ -85,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				1B3A394025EC9E7900EBA276 /* 10845_큐.cpp */,
+				1B3A394425ECA56100EBA276 /* 10866_덱.cpp */,
+				1B3A394625ECADE800EBA276 /* 13023_ABCDE.cpp */,
 			);
 			name = "큐와 그래프";
 			path = "큐와 그래프";
@@ -214,7 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B3A394125EC9E7900EBA276 /* 10845_큐.cpp in Sources */,
+				1B3A394725ECADE800EBA276 /* 13023_ABCDE.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
