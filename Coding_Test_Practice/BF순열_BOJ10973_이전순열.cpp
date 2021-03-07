@@ -35,15 +35,3 @@ int main(){
 }
 
 
-//int main(){
-//
-//    greaterVec = {1,3,2};
-//
-//    while(next_permutation(greaterVec.begin(), greaterVec.end())){
-//        for(int i = 0; i<3; i++){
-//            cout << greaterVec[i] << " ";
-//        }cout << "\n";
-//    }
-//
-//    return 0;
-//}

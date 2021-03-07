@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//자료형 int로 하면 통과 안 됨! 
+//자료형 int로 하면 통과 안 됨!
 long long dp[91][2];
 int main(){
     int T; cin >> T;
@@ -28,3 +28,4 @@ int main(){
     
     return 0;
 }
+
