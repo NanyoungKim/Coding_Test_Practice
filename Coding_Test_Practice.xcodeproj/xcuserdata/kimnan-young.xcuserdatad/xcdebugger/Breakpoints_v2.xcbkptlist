@@ -912,5 +912,53 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "101900E1-77CA-4632-97C1-47B8985F3512"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x1109;&#x1175;&#x1106;&#x1172;&#x11af;&#x1105;&#x1166;&#x110b;&#x1175;&#x1109;&#x1167;&#x11ab;/SM_BOj14890_&#x1100;&#x1167;&#x11bc;&#x1109;&#x1161;&#x1105;&#x1169;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDF3381C-9047-428E-BE6A-77A7E39CD483"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x1109;&#x1175;&#x1106;&#x1172;&#x11af;&#x1105;&#x1166;&#x110b;&#x1175;&#x1109;&#x1167;&#x11ab;/SM_BOj14890_&#x1100;&#x1167;&#x11bc;&#x1109;&#x1161;&#x1105;&#x1169;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F044296E-0CD5-41F5-B2AE-2256C8386BB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x1109;&#x1175;&#x1106;&#x1172;&#x11af;&#x1105;&#x1166;&#x110b;&#x1175;&#x1109;&#x1167;&#x11ab;/SM_BOj14890_&#x1100;&#x1167;&#x11bc;&#x1109;&#x1161;&#x1105;&#x1169;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
