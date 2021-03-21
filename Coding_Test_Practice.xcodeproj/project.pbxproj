@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BBC01DC2607224900EEC48A /* SM_BOJ2290_LCD Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BBC01DB2607224900EEC48A /* SM_BOJ2290_LCD Test.cpp */; };
 		1BBC01DE26073D6F00EEC48A /* SM_BOJ15685_드래곤커브.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BBC01DD26073D6F00EEC48A /* SM_BOJ15685_드래곤커브.cpp */; };
 /* End PBXBuildFile section */
 
@@ -311,7 +310,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BBC01DC2607224900EEC48A /* SM_BOJ2290_LCD Test.cpp in Sources */,
 				1BBC01DE26073D6F00EEC48A /* SM_BOJ15685_드래곤커브.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
