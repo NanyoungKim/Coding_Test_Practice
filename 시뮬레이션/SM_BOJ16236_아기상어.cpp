@@ -6,10 +6,17 @@
 //  Copyright © 2021 KimNanyoung. All rights reserved.
 //
 
+//fishVec에 거리, 행, 열 정보 담아서 sort함수 이용해 정렬하면 자동으로 우선순위 적용됨
+//물고기 한 마리 먹을 때마다 현재 위치에서 BFS함수 돌려서 먹을 수 있는 물고기들 fishVec에 넣고 sort 후 가장 앞의 물고기 먹고 위치 조정
+//fishVec에 물고기 없으면 종료
+//맨 처음 아기상어의 위치 저장 후 해당 칸 0으로 설정해서 빈칸으로 바꿔줘야함. (아기상어의 현재 위치 바뀌므로)
+
 #include <iostream>
 #include <queue>
-
+#include <vector>
 #include <utility>
+#include <algorithm>
+
 using namespace std;
 
 int N;
@@ -19,122 +26,55 @@ int map[20][20];
 int dr[4] = {-1,0,1,0};
 int dc[4] = {0,1,0,-1};
 
-//queue<pair<int,int>> que;
-//priority_queue<pair<int, pair<int,int>>> que;           //(물고기 크기, (row,col))
 
 int nowR, nowC;
 int babySize = 2;
 int toEat = 2;
 int resSec = 0;
 
-int onlyOneR, onlyOneC;
-
-int smallerCnt(){
-    int res = 0;
-    for(int i = 0; i<N; i++){
-        for(int j = 0; j<N; j++){
-            if((1<=map[i][j] && map[i][j]<=6) && map[i][j]<babySize){       //물고기 있고 아기상어보다 크기 작으면
-                res++;
-                onlyOneR = i;
-                onlyOneC = j;
-            }
-            if(res>=2) return res;
-        }
-    }
-    
-    return res;
-}
+vector<pair<pair<int,int>,int>> fishVec;        //거리, 가장 위쪽, 가장 왼쪽
 
 
-int distanceFunc(int startR, int startC, int destR, int destC){
+void BFS(int row, int col){ //현재 위치에서 먹을 수 있는 물고기까지의 거리와 위치 저장
     
-    queue<pair<int, int>> disQue;
-    disQue.push(make_pair(startR, startC));
+    fishVec.clear();                //현재 위치 바뀌었으므로, 벡터 비운 후 바뀐 현재위치 중심으로 가장 가까운 물고기들 push
+    queue<pair<int,int>> que;
+    que.push(make_pair(row,col));       //다음에 어디 방문할지 저장하는 큐
     
-    int ans=0;
     int fromStart[20][20] = {0};
-    int visit[20][20] = {0};
-    fromStart[startR][startC] = 0;
-    visit[startR][startC] = 1;
+    int visited[20][20] = {0};
+    visited[row][col] = 1;      //현재 위치는 이미 방문함
     
-    while(!disQue.empty()){
+    int minDist = 1000;
+    
+    while(!que.empty()){
         
-        int r = disQue.front().first;
-        int c = disQue.front().second;
-        disQue.pop();
-        
-        
-        if(r==destR && c==destC){
-            ans = fromStart[r][c];
-            break;
-        }
+        int r = que.front().first;
+        int c = que.front().second;
+        que.pop();
         
         for(int i = 0; i<4; i++){
-            
             int nr = r + dr[i];
             int nc = c + dc[i];
-            if(nr<0 || nr>=N || nc<0 || nc>=N || visit[nr][nc]==1 || babySize<map[nr][nc]) continue;    //범위 벗어나거나 이미 방문했거나 크기 크면 못 지나감
+            
+            if(nr<0 || nr>=N || nc<0 || nc>=N || visited[nr][nc]==1 || babySize<map[nr][nc]) continue;  //범위 넘어가거나, 방문했거나, 크기 크면 못 지나감
             
             fromStart[nr][nc] = fromStart[r][c] + 1;
-            disQue.push(make_pair(nr,nc));
-            visit[nr][nc] = 1;
-            
-            
-        }
-    }
-    return ans;
-    
-}
-
-
-
-int distFish[20][20] = {0};
-int visited[20][20]= {0};
-
-void func(int row, int col){
-    
-    queue<pair<int,int>> q;
-    q.push(make_pair(row,col));
-    
-    for(int i=0; i<N; i++){
-        for(int j=0; j<N; j++){
-            distFish[i][j]  = 0; visited[i][j] = 0;
-        }
-    }
-    visited[row][col] = 1;
-    distFish[row][col] = 0;
-    
-    
-    while(!q.empty()){
-        
-        int r = q.front().first;
-        int c = q.front().second;
-        q.pop();
-        
-        for(int i = 0; i<4; i++){
-            int nr = r + dr[i];
-            int nc = c + dc[i];
-            
-            //범위 벗어나거나                          방문했거나              물고긴데 아기상어보다 커서 못지나가면
-            if(nr<0 || nr>=N || nc<0 || nc>=N || visited[nr][nc]==1 || (map[nr][nc]!=9 && babySize<map[nr][nc]) ) continue;
-            
-            
-            q.push(make_pair(nr,nc));
             visited[nr][nc] = 1;
-            distFish[nr][nc] = distFish[r][c] + 1;
+            que.push(make_pair(nr,nc));
             
-            
+            if(map[nr][nc]>0 && babySize>map[nr][nc]){  //먹을 수 있는 물고기 (작은거)
+                
+                //먹을 수 있는 물고기 중 가장 가까운 물고기 먹기
+                if(minDist>=fromStart[nr][nc]){
+                    minDist = fromStart[nr][nc];
+                    fishVec.push_back(make_pair(make_pair(minDist, nr),nc));
+                    
+                   // cout << nr << " " << nc << "  거리 : " << minDist << "\n";
+                }
+            }
         }
     }
-}
-
-void chk(){
-    for(int i=0; i<N; i++){
-                  for(int j=0; j<N; j++){
-                      printf("%d ", distFish[i][j]);
-                  }printf("\n");
-               }
-               printf("\n\n\n");
 }
 
 
@@ -145,85 +85,44 @@ int main(){
     for(int i = 0; i<N; i++){
         for(int j = 0; j<N; j++){
             scanf("%d", &map[i][j]);
-            if(map[i][j] == 9) {nowR = i; nowC = j;}    //아기상어 위치 저장
+            if(map[i][j] == 9) {
+                map[i][j] = 0;
+                nowR = i; nowC = j;}    //아기상어 위치 저장
         }
     }
     
     
-    while(1){    //먹을 수 있는 물고기 없을 때까지
+    while(1){
         
-       
-        //물고기 한 마리 먹을 때마다 자기보다 작은 물고기 검사
-        int smallerFish = smallerCnt();
         
-
-        //작은 물고기 없어서 더이상 머글 수 있는 물고기 x -> 도움 요청
-        if(smallerFish==0){
+        BFS(nowR, nowC);            //현재 위치에서 가장 가까운 물고기들 탐색
+        if(fishVec.size()==0){      //먹을 수 있는 물고기 없을 때까지
+            
             break;
         }
-        
-        //먹을 수 있는 물고기 1개
-        else if(smallerFish==1){
-            int disToDest = distanceFunc(nowR, nowC, onlyOneR, onlyOneC);   //이동하는데 걸리는 시간
-            resSec += disToDest;
-            
-            
-            
-            map[onlyOneR][onlyOneC] = 0;        //물고기 잡아먹었으니 빈칸됨
-            
-            nowR = onlyOneR;        //아기상어 위치 바뀜
-            nowC = onlyOneC;
-            
-            toEat-=1;
-            if(toEat==0){
-                babySize+=1;
-                toEat = babySize;
-            }
-            
-        }
- 
-        //2개이상이면 거리들 비교해서 가장 가깝고 + 위 + 왼
         else{
             
-            func(nowR,nowC);
-            chk();
-            int minDist = 1000; int minR=-1, minC = -1;
-            for(int i=0; i<N; i++){
-                for(int j=0; j<N; j++){
-                    if(map[i][j]<babySize && distFish[i][j]!=0 && (1<=map[i][j] && map[i][j]<=6)){        //아기상어보다 큰 물고기가 아니고 &&
-                        if(minDist>distFish[i][j]){
-                            minDist = distFish[i][j];
-                            minR = i; minC = j;
-                        }
-                    }
-
-                }
-            }
+            sort(fishVec.begin(), fishVec.end());   //거리 같은 물고기들 중 위/ 왼 우선순위 적용해서 정렬 후 가장 앞의 요소 먹기
             
-            cout << "mini : " << minR << " " << minC << "\n";
-            //int disToDest = distanceFunc(nowR, nowC, minR, minC);   //이동하는데 걸리는 시간
-            //resSec += disToDest;
-            resSec += distFish[minR][minC];
+            resSec += fishVec[0].first.first;       //이동거리 = 걸린 초
             
             
-            map[minR][minC] = 0;        //물고기 잡아먹었으니 빈칸됨
-            
-            nowR = minR;        //아기상어 위치 바뀜
-            nowC = minC;
-            
+            //잡아 먹음
             toEat-=1;
             if(toEat==0){
                 babySize+=1;
                 toEat = babySize;
             }
             
+            
+            //잡아먹었으니 아기상어 위치 바뀜
+            nowR = fishVec[0].first.second;
+            nowC = fishVec[0].second;
+            
+            map[nowR][nowC] = 0;        //해당 칸 물고기 없어져서 빈칸됨
+            
         }
-        
     }
-    
-    
-    
-    
     cout <<resSec;
     
     
