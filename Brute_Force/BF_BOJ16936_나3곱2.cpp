@@ -1,3 +1,5 @@
+
+//
 //  BF_BOJ16936_나3곱2.cpp
 //  Coding_Test_Practice
 //
@@ -8,57 +10,92 @@
 #include <iostream>
 #include <vector>
 #include <utility>
-#include <algorithm>
 
 using namespace std;
 
 vector<long long> vecB;
 vector<long long> vecA;
+int visited[100] = {0};
 int N;
 
+pair<bool, int> isIn(long long num){
+    for(int i = 0; i<N; i++){
+        if(vecB[i]==num) return make_pair(true, i);
+    }
+    return make_pair(false, -1);
+}
 
+bool iscontinue = true;
 void DFS(long long x, int cnt){
 
+
+
     if(cnt==N){
+        iscontinue = false;
         for(int i = 0; i<N; i++){
             cout << vecA[i] << " ";
         }
-        exit(0);
+        printf("\n");
+        return;
     }
-    
 
-    if(x%3==0 && find(vecB.begin(), vecB.end(), x/3)!=vecB.end()){
-        vecA.push_back(x/3);
-        DFS(x/3, cnt+1);
-        vecA.pop_back();
+    //곱2
+    pair<bool, int> p = isIn(2*x);
+    if(p.first==true && visited[p.second]==0){
+        visited[p.second] = 1;
+        vecA.push_back(x*2);
+        DFS(x*2, cnt+1);
+        if(iscontinue){
+            vecA.pop_back();
+            visited[p.second] = 0;
+        }else return;
+
     }
-    if(find(vecB.begin(), vecB.end(), 2*x)!=vecB.end()){
-        vecA.push_back(2*x);
-        DFS(2*x, cnt+1);
-        vecA.pop_back();
+
+
+    //나3
+
+    if(x%3 == 0){
+        pair<bool, int> p2 = isIn(x/3);
+        if(p2.first==false) return;
+        else if(p2.first==true && visited[p2.second]==0){
+            visited[p2.second] = 1;
+            vecA.push_back(x/3);
+            DFS(x/3, cnt+1);
+            if(iscontinue){
+                vecA.pop_back();
+                visited[p2.second] = 0;
+            }else return;
+
+        }
+
+
     }
-    return;
+
+    if(iscontinue==false) return;
 }
 
 
 int main(){
 
     cin>>N;
-   
+
     long long num;
     for(int i = 0; i<N; i++){
         scanf("%lld", &num);
         vecB.push_back(num);
     }
-    
+
     for(int i = 0; i<vecB.size(); i++){
-       
+        visited[i] = 1;
         vecA.push_back(vecB[i]);
         DFS(vecB[i], 1);
-        vecA.pop_back();
-            
+        if(iscontinue==true){
+            vecA.pop_back();
+            visited[i] = 0;
+        }else break;
     }
-    
+
     return 0;
 }
 
