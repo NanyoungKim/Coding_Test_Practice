@@ -23,6 +23,7 @@ void pickDFS(int toPick, int start,  int sum, int maxi, int mini){
         
     if(toPick==0){
         if((L<=sum && sum<=R) && (X<= maxi - mini)) {
+            cout << sum << " " << maxi << " " << mini << endl;
             answer++;
         }
         return;
@@ -35,6 +36,8 @@ void pickDFS(int toPick, int start,  int sum, int maxi, int mini){
             visited[i] = 0;
         }
     }
+    
+    
 }
 
 
@@ -48,6 +51,7 @@ int main(){
     }
     
     for(int i = 2; i<=N; i++){
+        cout << i << endl;
         pickDFS(i,0, 0, 0, 1000001);
     }
     cout << answer;
