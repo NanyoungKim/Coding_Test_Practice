@@ -32,7 +32,7 @@ int mini = 100000000;
 int answer =100000000;
 
 
-void pickChickDFS(int toPick){
+void pickChickDFS(int toPick, int start){
 
     if(toPick==0){
         
@@ -56,11 +56,11 @@ void pickChickDFS(int toPick){
         
     }
     
-    for(int i = 0; i<chickenVec.size(); i++){
+    for(int i = start; i<chickenVec.size(); i++){
         if(visited[i]==0){
             visited[i] = 1;
             pickedChick.push_back(chickenVec[i]);
-            pickChickDFS(toPick-1);
+            pickChickDFS(toPick-1, i);
             pickedChick.pop_back();
             visited[i] = 0;
         }
@@ -81,7 +81,7 @@ int main(){
         }
     }
     
-    pickChickDFS(M);
+    pickChickDFS(M, 0);
     cout << answer;
     
     return 0;
