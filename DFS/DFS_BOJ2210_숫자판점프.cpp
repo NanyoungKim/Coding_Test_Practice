@@ -27,7 +27,6 @@ void DFS(int r, int c, int toPick, string str){
         return;
     }
     
-    
     for(int i = 0; i<4; i++){
         int nr = r + dr[i];
         int nc = c + dc[i];
@@ -38,12 +37,7 @@ void DFS(int r, int c, int toPick, string str){
         DFS(nr, nc, toPick-1,str);
         str.pop_back();
     }
-    
-    
-    
 }
-
-
 
 int main(){
     
@@ -53,14 +47,12 @@ int main(){
         }
     }
     
-    
     for(int i = 0; i<5; i++){
            for(int j = 0; j<5; j++){
                DFS(i,j,6, "");
            }
     }
-    
-    
+
     cout << strVec.size();
     
     return 0;

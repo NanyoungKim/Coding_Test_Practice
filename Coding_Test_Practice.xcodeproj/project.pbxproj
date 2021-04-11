@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B9643B5262299240011F6C4 /* BF_BOJ15686_치킨배달.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B9643B4262299240011F6C4 /* BF_BOJ15686_치킨배달.cpp */; };
+		1B9643BA2622BE6F0011F6C4 /* DP_BOJ2579_계단오르기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B9643B92622BE6F0011F6C4 /* DP_BOJ2579_계단오르기.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +76,8 @@
 		1B95F8BC25F715AB004376B7 /* BFS_BOJ13913_숨바꼭질4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BFS_BOJ13913_숨바꼭질4.cpp"; sourceTree = "<group>"; };
 		1B9643B2262268470011F6C4 /* DFS_BOJ2210_숫자판점프.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DFS_BOJ2210_숫자판점프.cpp"; sourceTree = "<group>"; };
 		1B9643B4262299240011F6C4 /* BF_BOJ15686_치킨배달.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ15686_치킨배달.cpp"; sourceTree = "<group>"; };
+		1B9643B72622B2EC0011F6C4 /* 문자열_BF1110_더하기사이클.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "문자열_BF1110_더하기사이클.cpp"; sourceTree = "<group>"; };
+		1B9643B92622BE6F0011F6C4 /* DP_BOJ2579_계단오르기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DP_BOJ2579_계단오르기.cpp"; sourceTree = "<group>"; };
 		1B9AC9ED25D76AA800814C91 /* BF_비트마스크_BOJ11723_집합(비트마스크로 풀기).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_비트마스크_BOJ11723_집합(비트마스크로 풀기).cpp"; sourceTree = "<group>"; };
 		1B9AC9EF25D780F400814C91 /* BF비트마스크_BOJ14391_종이조각.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF비트마스크_BOJ14391_종이조각.cpp"; sourceTree = "<group>"; };
 		1B9AC9F125D79A8000814C91 /* BF순열_BOJ10972_다음순열.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "BF순열_BOJ10972_다음순열.cpp"; path = "../Coding_Test_Practice/BF순열_BOJ10972_다음순열.cpp"; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				1BA1348825E3556F005AB7F5 /* DP_BOJ1149_RGB거리.cpp */,
 				1BA1348A25E3687D005AB7F5 /* DP_BOJ1932_정수삼각형.cpp */,
 				1BA1348C25E37264005AB7F5 /* DP_BOJ1057_오르막수.cpp */,
+				1B9643B92622BE6F0011F6C4 /* DP_BOJ2579_계단오르기.cpp */,
 			);
 			name = "다이나믹 프로그래밍";
 			path = "다이나믹 프로그래밍";
@@ -236,9 +239,19 @@
 			path = "시뮬레이션";
 			sourceTree = "<group>";
 		};
+		1B9643B62622B1990011F6C4 /* 문자열 */ = {
+			isa = PBXGroup;
+			children = (
+				1B9643B72622B2EC0011F6C4 /* 문자열_BF1110_더하기사이클.cpp */,
+			);
+			name = "문자열";
+			path = "문자열";
+			sourceTree = "<group>";
+		};
 		1BA622042475983500B899D6 = {
 			isa = PBXGroup;
 			children = (
+				1B9643B62622B1990011F6C4 /* 문자열 */,
 				1B64823E261AEF1D009BC0BB /* 삼성_SW역량테스트_기출 */,
 				1BBB9CEE2618087F00C44522 /* Brute_Force */,
 				1B7AAAB12612E7DB006B9200 /* Greedy */,
@@ -375,7 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B9643B5262299240011F6C4 /* BF_BOJ15686_치킨배달.cpp in Sources */,
+				1B9643BA2622BE6F0011F6C4 /* DP_BOJ2579_계단오르기.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
