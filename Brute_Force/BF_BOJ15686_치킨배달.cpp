@@ -12,6 +12,7 @@
 #include <utility>
 #include <string.h>
 #include <queue>
+#include <cmath>
 using namespace std;
 
 int N, M;
@@ -28,64 +29,31 @@ vector<pair<int,int>> pickedChick;   //2중 M개 선택
 int dr[4] = {-1,0,1,0};
 int dc[4] = {0,1,0,-1};
 int mini = 100000000;
-
-
-int searchDisBFS(){
-    
-    memset(newMap, 0, sizeof(newMap));
-
-    for(int i = 0; i<pickedChick.size(); i++){
-        int r = pickedChick[i].first;
-        int c = pickedChick[i].second;
-        newMap[r][c] = 2;
-    }
-    
-    int sum=0;
-    for(int i = 0; i<homeVec.size(); i++){
-        memset(fromStart, 0, sizeof(fromStart));
-        queue<pair<int,int>> que;
-        que.push(make_pair(homeVec[i].first, homeVec[i].second));
-        int initR = que.front().first;
-        int initC = que.front().second;
-
-        
-        while(!que.empty()){
-             
-            
-            int r = que.front().first;
-            int c = que.front().second;
-            que.pop();
-            
-            if(newMap[r][c] == 2){
-                sum+=fromStart[r][c];
-                break;
-            }
-            
-            for(int j = 0; j<4; j++){
-                int nr = r + dr[j];
-                int nc = c + dc[j];
-                if(nr<1 || nr>N ||nc<1 || nc>N || fromStart[nr][nc]!=0 || (nr==initR && nc==initC)) continue;
-              
-                que.push(make_pair(nr,nc));
-                fromStart[nr][nc] = fromStart[r][c] + 1;
-                
-            }
-           
-            
-        }
-       
-    }
-    
-    return sum;
-}
+int answer =100000000;
 
 
 void pickChickDFS(int toPick){
 
     if(toPick==0){
-        int disSum = searchDisBFS();
-        if(mini>disSum) mini = disSum;
+        
+        int sum=0;
+        //각 집에서 pickChick까지의 거리들 중 최소값들의 합
+        for(int i = 0; i<homeVec.size();i++){
+            mini = 100000000;
+            
+            for(int j = 0; j<pickedChick.size(); j++){
+                int dis = abs(homeVec[i].first-pickedChick[j].first)
+                + abs(homeVec[i].second - pickedChick[j].second);
+                
+                if(mini>dis) mini = dis;
+            }
+            sum+=mini;
+            if(sum>answer) return;
+        }
+        
+        if(answer>sum) answer = sum;
         return;
+        
     }
     
     for(int i = 0; i<chickenVec.size(); i++){
@@ -114,7 +82,7 @@ int main(){
     }
     
     pickChickDFS(M);
-    cout << mini;
+    cout << answer;
     
     return 0;
 }
