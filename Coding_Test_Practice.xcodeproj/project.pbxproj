@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B2F4D4426287327008D9ED5 /* SM_BOJ20057_마법사상어와토네이도.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F4D4326287327008D9ED5 /* SM_BOJ20057_마법사상어와토네이도.cpp */; };
+		1B883303262A7A5E00DEAB1A /* SM_BOJ17144_미세먼지안녕!.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B883302262A7A5E00DEAB1A /* SM_BOJ17144_미세먼지안녕!.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +62,7 @@
 		1B823D8D25C23AF100E93E04 /* 수학_BOJ1929_소수구하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "수학_BOJ1929_소수구하기.cpp"; path = "../Coding_Test_Practice/수학_BOJ1929_소수구하기.cpp"; sourceTree = "<group>"; };
 		1B823D8F25C257DE00E93E04 /* BF_BOJ2309_일곱난쟁이.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ2309_일곱난쟁이.cpp"; sourceTree = "<group>"; };
 		1B864E8125FE042B007F1F6B /* SM_BOJ14499_주사위굴리기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SM_BOJ14499_주사위굴리기.cpp"; sourceTree = "<group>"; };
+		1B883302262A7A5E00DEAB1A /* SM_BOJ17144_미세먼지안녕!.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SM_BOJ17144_미세먼지안녕!.cpp"; sourceTree = "<group>"; };
 		1B89395325F3884A0065D3B5 /* BFS_BOJ7576_토마토.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BFS_BOJ7576_토마토.cpp"; sourceTree = "<group>"; };
 		1B89AFB825F8511800BDFFE4 /* SM_BOJ16931_겉넓이구하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SM_BOJ16931_겉넓이구하기.cpp"; sourceTree = "<group>"; };
 		1B89AFBA25F85C0A00BDFFE4 /* SM_BOJ16926_배열 돌리기1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SM_BOJ16926_배열 돌리기1.cpp"; sourceTree = "<group>"; };
@@ -191,6 +192,7 @@
 			children = (
 				1B64823F261AF2B2009BC0BB /* SM_BOJ20056_마법사_상어와_파이어볼.cpp */,
 				1B2F4D4326287327008D9ED5 /* SM_BOJ20057_마법사상어와토네이도.cpp */,
+				1B883302262A7A5E00DEAB1A /* SM_BOJ17144_미세먼지안녕!.cpp */,
 			);
 			name = "삼성_SW역량테스트_기출";
 			path = "삼성_SW역량테스트_기출";
@@ -394,7 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B2F4D4426287327008D9ED5 /* SM_BOJ20057_마법사상어와토네이도.cpp in Sources */,
+				1B883303262A7A5E00DEAB1A /* SM_BOJ17144_미세먼지안녕!.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
