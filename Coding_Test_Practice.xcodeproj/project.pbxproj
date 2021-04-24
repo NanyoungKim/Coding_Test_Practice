@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B883303262A7A5E00DEAB1A /* SM_BOJ17144_미세먼지안녕!.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B883302262A7A5E00DEAB1A /* SM_BOJ17144_미세먼지안녕!.cpp */; };
+		1B38F4EF2633D535007DECE3 /* SM_BOJ20058_마법사 상어와 파이어스톰.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B38F4EE2633D535007DECE3 /* SM_BOJ20058_마법사 상어와 파이어스톰.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +31,7 @@
 		1B253A3225F99C430045A91C /* SM_BOJ15662_톱니바퀴2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SM_BOJ15662_톱니바퀴2.cpp"; sourceTree = "<group>"; };
 		1B253A3425F9BB920045A91C /* SM_BOj14890_경사로.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SM_BOj14890_경사로.cpp"; sourceTree = "<group>"; };
 		1B2F4D4326287327008D9ED5 /* SM_BOJ20057_마법사상어와토네이도.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SM_BOJ20057_마법사상어와토네이도.cpp"; sourceTree = "<group>"; };
+		1B38F4EE2633D535007DECE3 /* SM_BOJ20058_마법사 상어와 파이어스톰.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SM_BOJ20058_마법사 상어와 파이어스톰.cpp"; sourceTree = "<group>"; };
 		1B3A394025EC9E7900EBA276 /* 10845_큐.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10845_큐.cpp"; sourceTree = "<group>"; };
 		1B3A394425ECA56100EBA276 /* 10866_덱.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10866_덱.cpp"; sourceTree = "<group>"; };
 		1B3A394625ECADE800EBA276 /* 13023_ABCDE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 13023_ABCDE.cpp; sourceTree = "<group>"; };
@@ -108,6 +109,7 @@
 		1BBC01DB2607224900EEC48A /* SM_BOJ2290_LCD Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SM_BOJ2290_LCD Test.cpp"; sourceTree = "<group>"; };
 		1BBC01DD26073D6F00EEC48A /* SM_BOJ15685_드래곤커브.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SM_BOJ15685_드래곤커브.cpp"; sourceTree = "<group>"; };
 		1BBD82A725DB74BB00C2877E /* DP_BOJ1699_제곱수의합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "DP_BOJ1699_제곱수의합.cpp"; path = "../Coding_Test_Practice/DP_BOJ1699_제곱수의합.cpp"; sourceTree = "<group>"; };
+		1BC2368F262EA2EF00EDD67E /* SM_BOJ17140_이차원 배열과 연산.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SM_BOJ17140_이차원 배열과 연산.cpp"; sourceTree = "<group>"; };
 		1BC5688B2616CF9900D38207 /* SM_BOJ14502_연구소.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SM_BOJ14502_연구소.cpp"; sourceTree = "<group>"; };
 		1BC74FC025BE4D340061903B /* 수학_BOJ17427_약수의합2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "수학_BOJ17427_약수의합2.cpp"; path = "../Coding_Test_Practice/수학_BOJ17427_약수의합2.cpp"; sourceTree = "<group>"; };
 		1BC74FC225BE59690061903B /* 수학_BOJ17425_약수의합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "수학_BOJ17425_약수의합.cpp"; path = "../Coding_Test_Practice/수학_BOJ17425_약수의합.cpp"; sourceTree = "<group>"; };
@@ -193,6 +195,8 @@
 				1B64823F261AF2B2009BC0BB /* SM_BOJ20056_마법사_상어와_파이어볼.cpp */,
 				1B2F4D4326287327008D9ED5 /* SM_BOJ20057_마법사상어와토네이도.cpp */,
 				1B883302262A7A5E00DEAB1A /* SM_BOJ17144_미세먼지안녕!.cpp */,
+				1BC2368F262EA2EF00EDD67E /* SM_BOJ17140_이차원 배열과 연산.cpp */,
+				1B38F4EE2633D535007DECE3 /* SM_BOJ20058_마법사 상어와 파이어스톰.cpp */,
 			);
 			name = "삼성_SW역량테스트_기출";
 			path = "삼성_SW역량테스트_기출";
@@ -396,7 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B883303262A7A5E00DEAB1A /* SM_BOJ17144_미세먼지안녕!.cpp in Sources */,
+				1B38F4EF2633D535007DECE3 /* SM_BOJ20058_마법사 상어와 파이어스톰.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
