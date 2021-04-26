@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B38F4EF2633D535007DECE3 /* SM_BOJ20058_마법사 상어와 파이어스톰.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B38F4EE2633D535007DECE3 /* SM_BOJ20058_마법사 상어와 파이어스톰.cpp */; };
+		1B963E792636B575007E1239 /* BS_BOj1789_수들의 합.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B963E782636B575007E1239 /* BS_BOj1789_수들의 합.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +79,7 @@
 		1B9368BA25DE2650007ECD36 /* DP_BOJ2193_이친수.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "DP_BOJ2193_이친수.cpp"; path = "../Coding_Test_Practice/DP_BOJ2193_이친수.cpp"; sourceTree = "<group>"; };
 		1B9368BC25DE3411007ECD36 /* DP_BOJ14002_가장긴증가하는부분수열.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "DP_BOJ14002_가장긴증가하는부분수열.cpp"; path = "../Coding_Test_Practice/DP_BOJ14002_가장긴증가하는부분수열.cpp"; sourceTree = "<group>"; };
 		1B95F8BC25F715AB004376B7 /* BFS_BOJ13913_숨바꼭질4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BFS_BOJ13913_숨바꼭질4.cpp"; sourceTree = "<group>"; };
+		1B963E782636B575007E1239 /* BS_BOj1789_수들의 합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BS_BOj1789_수들의 합.cpp"; sourceTree = "<group>"; };
 		1B9643B2262268470011F6C4 /* DFS_BOJ2210_숫자판점프.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DFS_BOJ2210_숫자판점프.cpp"; sourceTree = "<group>"; };
 		1B9643B4262299240011F6C4 /* BF_BOJ15686_치킨배달.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BF_BOJ15686_치킨배달.cpp"; sourceTree = "<group>"; };
 		1B9643B72622B2EC0011F6C4 /* 문자열_BF1110_더하기사이클.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "문자열_BF1110_더하기사이클.cpp"; sourceTree = "<group>"; };
@@ -251,6 +252,14 @@
 			path = "시뮬레이션";
 			sourceTree = "<group>";
 		};
+		1B963E772636B54E007E1239 /* Binary Search */ = {
+			isa = PBXGroup;
+			children = (
+				1B963E782636B575007E1239 /* BS_BOj1789_수들의 합.cpp */,
+			);
+			path = "Binary Search";
+			sourceTree = "<group>";
+		};
 		1B9643B62622B1990011F6C4 /* 문자열 */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,6 +272,7 @@
 		1BA622042475983500B899D6 = {
 			isa = PBXGroup;
 			children = (
+				1B963E772636B54E007E1239 /* Binary Search */,
 				1B9643B62622B1990011F6C4 /* 문자열 */,
 				1B64823E261AEF1D009BC0BB /* 삼성_SW역량테스트_기출 */,
 				1BBB9CEE2618087F00C44522 /* Brute_Force */,
@@ -400,7 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B38F4EF2633D535007DECE3 /* SM_BOJ20058_마법사 상어와 파이어스톰.cpp in Sources */,
+				1B963E792636B575007E1239 /* BS_BOj1789_수들의 합.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +470,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -512,6 +523,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				SDKROOT = macosx;
 			};
 			name = Release;
