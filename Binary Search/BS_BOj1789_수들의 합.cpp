@@ -16,13 +16,20 @@ int main(){
     long S; cin >> S;
     
     long ans = 0;
-    long x = sqrt(2*S);
-    for(long i = x; i>=1; i--){
-        if(i*i + i <=2*S){
-            ans = i;
-            break;
+    long start = 1; long end = S;
+    
+    while(start<=end){
+        long mid = (start+end)/2;
+        
+        if(mid*(mid+1)/2 <= S){
+            ans = mid;
+            start = mid+1;
+        }
+        else{
+            end = mid-1;
         }
     }
+    
     cout << ans;
     
     return 0;
