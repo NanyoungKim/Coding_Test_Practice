@@ -15,9 +15,7 @@ int main(){
     
     long long n;
     cin >> n;
-    
-    long long ans = 0;
-    
+        
     long long start = 0;
     long long end = sqrt(n);            
     long long mid;
